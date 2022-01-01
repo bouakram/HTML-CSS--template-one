@@ -18,7 +18,7 @@ body{
 
 @media(max-width: 768px){
   .services .container .special{
-    font-size: 78px;
+    font-size: 65px;
   }
   .special + p{
     margin: -20px 0 0;
@@ -31,17 +31,23 @@ body{
     display: none;
   }
   .portfolio .container .special{
-    font-size: 78px;
+    font-size: 65px;
   }
   .about .container .about-content{
     flex-direction: column;
     text-align: center;
+  }
+  .about .container .special{
+    font-size: 65px;
   }
   .about .container .about-content .image {
     display: none;
   }
   .contacte .coninf .lable, .contacte .coninf .link{
     font-size: 25px;
+  }
+  .contacte .container .special{
+    font-size: 55px;
   }
 }
 
